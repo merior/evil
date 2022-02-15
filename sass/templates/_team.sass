@@ -1,0 +1,75 @@
+.team
+    padding-bottom: 6.36rem
+    .section-title
+        margin-bottom: 1.1rem
+        &__heading
+            &--light
+                color: $light
+                font-size: 1.428rem
+                line-height: 2rem
+                text-transform: uppercase
+                text-align: center
+                
+        &__image
+            margin-bottom: 1.4rem
+        &__subtitle
+            max-width: 32rem
+            color: $light
+            margin: auto
+    .control__text
+        margin-bottom: 0
+    .row
+        margin-bottom: 3.85rem
+    .col-30
+        display: flex
+        .card
+            position: relative
+            max-width: 19.43rem
+            margin-top: 5.357rem
+            z-index: 3
+            &::before
+                content: ''
+                position: absolute
+                top: -35px
+                left: -35px
+                width: 70px
+                height: 70px
+                z-index: 3
+                background: $primary url('../img/idea.svg') no-repeat center
+                box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5)
+            &__design
+                &::before
+                    background: $primary url('../img/designer.svg') no-repeat center
+            &__foreman
+                &::before
+                    background: $primary url('../img/portfolio.svg') no-repeat center
+            &__image
+                position: relative
+            &__name
+                margin: 0
+                margin-bottom: 0.5rem
+            &__desc
+                margin: 0
+                margin-bottom: 1.857rem
+                color: $secondary
+            &__text
+                display: flex
+                flex-direction: column
+                padding: 0
+                margin-top: -6.3rem
+                max-width: 16.64rem
+                text-align: center
+            &__exp
+                color: $light
+                width: 100%
+                padding: 1rem
+                text-transform: uppercase
+                font-family: 'Yeseva One', cursive
+                font-weight: normal
+                background: $primary
+            &-team
+                &__human
+                    font-size: 1.28rem
+                    padding: 1.57rem 1.5rem
+                    margin: 0 auto
+                    padding-bottom: 0

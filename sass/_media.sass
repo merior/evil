@@ -1,0 +1,215 @@
+@media screen and ( max-width: 2000px)
+    .styles
+        .col
+            .col-2
+                right: 20%
+@media screen and ( max-width: 1700px)
+    .styles
+        .col
+            .col-1
+                right: 35% 
+            .col-2
+                right: 10%
+    
+@media screen and ( max-width: 1350px )
+    .styles
+        .col
+            .col-1
+                right: 30% 
+            .col-2
+                right: 2%
+    .hero
+        &::after
+            display: none
+        
+    
+@media screen and ( max-width: 1200px )
+    html
+        font-size: 12px
+    .nav
+        &__item
+            margin-right: 1rem
+    .types
+        padding-bottom: 0
+        .row
+            display: flex
+            flex-direction: column
+        .col-30
+            align-self: center
+            .card
+                margin-bottom: 6rem
+                &__text
+                    margin: 0
+                    margin-top: -9.3rem
+        .part
+            display: none
+        .discounts-container
+            display: none
+    .styles
+        position: static
+        background: $light
+        padding-bottom: 0
+        padding-top: 0
+        &::before
+            display: none
+        .row
+            display: flex
+            justify-content: center
+            .section
+                &-title
+                    margin: auto
+                    &__heading
+                        text-align: center
+                    &__img
+                        display: block
+        ul
+            display: none
+        .col-1
+            display: none
+        .col-2
+            display: none
+    .design
+        background: $dark
+        padding-bottom: 75rem
+        margin-bottom: -75rem
+        margin-top: -10rem
+        .section
+            &-title
+                &__heading
+                    color: $light
+                &__subtitle
+                    color: $light
+    .feedback
+        display: none
+    .team
+        background: $dark
+        .control__text
+            display: none
+    .footer
+        background: $dark
+        padding-bottom: 30px
+        &__wrap
+            background: $dark
+            margin-top: -10rem
+        &__form
+            display: flex
+            flex-direction: column
+            .policy__label--center
+                justify-content: flex-start
+        .input
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+        &__button
+            margin: 0
+        &__contacts
+            display: none
+        &__map
+            margin-bottom: 0
+        &__menu
+            display: none
+        .contacts-media
+            display: block
+
+@media screen and ( max-width: 992px )
+    .nav
+        display: none
+    .hero
+        &__instagram
+            display: none
+        &__content
+            margin-left: 0
+    .steps
+        display: none
+@media screen and ( max-width: 950px)
+    .projects
+        .row
+            flex-direction: column
+        .col-50
+            width: 100%
+        .section-title__word
+            display: flex
+        .section-title__word::after
+            display: none
+        .section-title__text
+            max-width: 100%
+        .swiper-slide
+            img
+                margin-top: 5rem
+    .control
+        background: $dark
+        &__text
+            color: $light
+        .label
+            color: $light
+        .input
+            border-bottom: 1px solid rgba($light, 0.3)
+            &::placeholder
+                color: $light
+        &__policy-label
+            color: $light
+@media screen and ( max-width: 760px)
+    .row
+        flex-direction: column
+        align-items: center
+    .types
+        &__card
+            margin-bottom: 5.64rem
+    .card
+        &__text
+            margin-left: 0
+@media screen and ( max-width: 610px )
+    .control
+        padding-bottom: 0
+        &__video
+            min-height: 20rem
+        &__form
+            display: flex
+            flex-direction: column
+        .input
+            margin-bottom: 2rem
+            order: 1
+            &:last-of-type
+                margin-bottom: 0
+        &__policy-label
+            justify-content: flex-start
+            margin-bottom: 4.5rem
+        &__button
+            order: 2
+        &__input-group
+            margin-bottom: 2rem
+    
+@media screen and ( max-width: 570px )
+    .contacts
+        &__phone
+            margin-right: 0
+            color: $light
+            text-decoration: none
+        &__button
+            display: none
+    .title
+        font-size: 1.64rem
+    .hero
+        &__scroll-down
+            display: none
+        &__content
+            max-width: 22.86rem
+        &__text
+            font-size: 1.29rem
+            margin-bottom: 2.28rem
+        &__button
+            display: block
+            min-width: 22.86rem
+            margin-bottom: 1.85rem
+@media screen and ( max-height: 520px )
+    .hero
+        &__scroll-down
+            display: none
+    .control
+        .video
+            &__play
+                width: 37px
+                height: 37px
+
+@media screen and ( max-width: 460px )
+    .types
+        .card__text
+            max-width: 20.6rem

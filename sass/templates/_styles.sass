@@ -1,0 +1,57 @@
+.styles
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    background: url('../img/styles-bg.jpg') no-repeat center / cover
+    padding-top: 8rem
+    padding-bottom: 5.142rem
+    .container
+        z-index: 3
+    &::before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba($dark, 0.7)
+    .section
+        &-title
+            &__heading
+                font-size: 1.93rem
+                line-height: 2.643rem
+                max-width: 29.357rem
+                margin-bottom: 2.5rem
+            &__img
+                display: none
+    ul
+        margin: 0
+        padding: 0
+    &-list
+        &__item
+            list-style-type: none
+            font-size: 1.428rem
+            line-height: 172.4%
+            color: $light
+            margin-bottom: 1rem
+            &:hover
+                color: $primary
+                text-decoration: underline
+    .col
+        display: flex
+        flex-direction: column
+        .col-1
+            position: absolute
+            top: -5%
+            right: 40%
+            margin-right: 3.07rem
+        .col-2
+            position: absolute
+            top: -13%
+            right: 26%
+            padding-bottom: 5.714rem
+    &-img
+        &:first-of-type
+            margin-bottom: 2.857rem
+        
